@@ -1,12 +1,13 @@
-import React, { component } from 'react';
+import React, { Component } from 'react'
 
-export default class Conversor extends component {
+class Conversor extends Component {
     render() {
-        return
-        {
-            <div>
-
+        return (
+            <div className="conversor">
+                <p>Esse e o nosso conversor</p>
             </div>
-        }
+        )
     }
 }
+
+export default Conversor;
